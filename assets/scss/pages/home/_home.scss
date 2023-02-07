@@ -1,0 +1,71 @@
+// home-page
+.home-page {
+    .home-banner {
+        background: url(../images/home/top-banner-bg.png) no-repeat center center/cover;
+    }
+
+    .home-video {
+        background: url(../images/home/video-bg.png) no-repeat center center/cover;
+        padding: 60px 0;
+    }
+
+    .our-mission {
+        background: url(../images/home/our-mission-bg.png) no-repeat center center/cover;
+        padding: 60px 0;
+
+        .heiding {
+            font-family: 'Jasmine_and_Greentea';
+            color: #fff;
+            font-size: 45px;
+            margin-bottom: 30px;
+        }
+
+        .description {
+            font-family: "Times New Roman";
+            text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+            color: #fff;
+        }
+
+    }
+
+    .recipes {
+        padding: 60px 0;
+
+        .heading {
+            text-align: center;
+            font-family: 'Jasmine_and_Greentea';
+            color: #000;
+            font-size: 90px;
+            margin-bottom: 30px;
+
+            @media screen and(max-width: 767px) {
+                font-size: 45px;
+            }
+        }
+
+        .description {
+            font-family: "Times New Roman";
+
+            @media screen and(min-width: 768px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .donation {
+        background: url(../images/home/people-hand-to-hand.png) no-repeat center center/cover;
+        padding: 60px 0 180px 0;
+
+        img {
+            max-width: 60%;
+        }
+
+        @media screen and(max-width: 767px) {
+            padding: 60px 0 120px 0;
+        }
+    }
+
+    .reward-plan {
+        padding: 20px 0 40px 0;
+    }
+}
